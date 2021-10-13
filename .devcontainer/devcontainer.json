@@ -1,16 +1,6 @@
 {
 	"name": "FHIR IG Publisher",
-	"build": {
-		"dockerfile": "Dockerfile",
-		"args": {
-			"VARIANT": "11-buster",
-			"INSTALL_MAVEN": "true",
-			"MAVEN_VERSION": "3.6.3",
-			"INSTALL_GRADLE": "true",
-			"NODE_VERSION": "lts/*"
-		}
-	},
-
+        "image": "hl7fhir/ig-publisher-base",
 	"settings": { 
 	},
 	
